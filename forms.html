@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+    <center><h2>Registration form</h2></center>
+    <form>
+        <div>
+        <label  for="name" >Name</label><br>
+        <input name="name" id="name" type="text" required >
+        <br></div>
+        <div>
+        <label for="email" >Email</label>
+        <br>
+        <input name="email" id="email" type="text" required >
+        <br></div>
+        <div><label for="password" >Password</label>
+        <br>
+        <input name="password" id="password" type="password" required >
+        <br></div>
+        <div><label for="phno" >PhoneNo.</label>
+        <br>
+        <input name="phno" id="phno" type="tel" required >
+        <br></div>
+        <div><label for="gender">Gender</label>
+        <br>
+        <select class="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br></div>
+        <div><label for="language">Language</label>
+        <br>
+        <input type="text" name="language" id="language" required>
+        <br></div>
+        <div><label for="zipcode">Zipcode</label>
+        <br>
+        <input type="text" name="zipcode" id="zipcode" required>
+        <br></div>
+        <div><label for="about">About</label>
+        <br>
+        <textarea id="about" rows="5" cols="40" ></textarea>
+        <br></div>
+        <center><button id="button" type="submit" style="margin-bottom:10px;">Submit</button></center>
+    </form>
+</body>
+</html>
